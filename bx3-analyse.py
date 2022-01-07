@@ -431,8 +431,8 @@ def bx3_decode(http,language,key):
 			print("*"*88)
 			print("出现无法正常解析的流量，请检查重新尝试读取。")
 			f = open("error/error.log","a+")
-			f.write(b"\n\r somethin error \n\r")
-			f.write(http.body)
+			f.write("\n\r somethin error \n\r")
+			f.write(str(http.body))
 			f.close
 if __name__ == '__main__':
 	print(banner)
