@@ -30,9 +30,9 @@ Author: D²LAB-Zhu013
 Introduction: Analyse tools for Behinder stream which version >= 3.0   
 Useage:
 	python version 3.8
-	python bx3-analyse.py key pcap language
+	python bx3-analyse.py key pcap language shellname
 Example：
-	python bx3-analyse.py e45e329feb5d925b bxtest.pcap php 
+	python bx3-analyse.py e45e329feb5d925b bxtest.pcap php shell.php
 '''
 
 def tcp_flags(flags):
