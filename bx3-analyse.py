@@ -282,7 +282,7 @@ def pcap_decode(http,language,key,name=''):
 						destr = bx3_xor(key,base64.decodebytes(http.body))
 						# print(destr)
 					destr2 = regexphp(r"64_decode\('(.*)'\)",destr)
-					print("[+]"+"-"*44+"Behinder - AES解密"+"-"*44)
+					print("[+]"+"-"*44+"Behinder - AES/XOR解密"+"-"*44)
 
 					# cmd
 					if '$cmd,$path' in str(destr2):
