@@ -258,7 +258,7 @@ def pcap_decode(http,language,key,name=''):
 				# print("decode:="+destr)
 		elif language == 'php':
 			try:
-				print(len(x[0]))
+# 				print(len(x[0]))
 				if len(x[0]) > 0:
 					http.body=x[0]
 				if len(http.body) >150000:
