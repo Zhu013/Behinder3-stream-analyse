@@ -2,7 +2,16 @@
 冰蝎3流量解密工具。(目前完整写了php的，java仅支持具体命令执行，其他仅有具体行为判断，.net还没动，待完成...懒)
 
 ## Useage
+PYTHON3.8
+
+需安装依赖:
+dpkt
+pycryptodome
+Jpype1
+base64
+
 注:具体解密效果根据具体pcap包的完整度(缺掉的报文建议多解几次或者直接手动(不是
+
 
 #### update
 新增，支持检索shell名字，未解密出来的包请关注error文件夹。
